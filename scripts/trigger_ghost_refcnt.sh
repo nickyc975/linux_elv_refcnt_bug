@@ -39,5 +39,5 @@ echo 0 > /sys/module/dummy_iosched/parameters/should_fail_init_sched_early
 rmdir /sys/kernel/config/nullb/nullb0
 rmmod null_blk
 
-# This will fail because of hte ghost reference.
+# This will fail because of the ghost reference.
 rmmod dummy-iosched
